@@ -7,31 +7,35 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
-    <div class = "container">
-        <nav>
-            <div class = "nav-left-container">
-                <img src = 'Delicious Logo. fork and knife'>
-                <h1>Delicious</h1>
-                <p>The Best Food Blog on the Web</p>
+    <div class = 'container'>
+        <nav class = 'row'>
+            <div class = 'col-1'>
+                <div class = 'nav-left-container'>
+                    <img src = 'assets/logo.png' alt='Delicious Logo. fork and knife'>
+                    <div class = 'logo-text'>
+                    <h1>Delicious</h1>
+                    <p>The Best Food Blog on the Web</p>
+                    </div>
+                </div>
+                <ul class = 'nav-list'>
+                    <li><img src = 'assets/fb-icon.png' alt = 'facebook logo'></li>
+                    <li><img src = 'assets/twit-icon.png' alt = 'twitter logo'></li>
+                    <li><img src = 'assets/gp-icon.png' alt = 'google plus logo'></li>
+                    <li><img src = 'assets/insta-icon.png' alt = 'instagram logo'></li>
+                    <li><img src = 'assets/flic-icon.png' alt = 'flicker logo'></li>
+                    <li><img src = 'assets/pint-icon.png' alt = 'pinterest logo'></li>
+                    <li><img src = 'assets/rss-icon.png' alt = 'rss logo'></li>
+                    <li><img src = 'assets/mail-icon.png' alt = 'mail logo'></li>
+                </ul>
             </div>
-            <ul>
-                <li class = 'nav-li-elements'><img src = 'assets/fb-icon.png' alt = 'facebook logo'></li>
-                <li class = 'nav-li-elements'><img src = 'assets/twit-icon.png' alt = 'twitter logo'></li>
-                <li class = 'nav-li-elements'><img src = 'assets/gp-icon.png' alt = 'google plus logo'></li>
-                <li class = 'nav-li-elements'><img src = 'assets/insta-icon.png' alt = 'instagram logo'></li>
-                <li class = 'nav-li-elements'><img src = 'assets/flic-icon.png' alt = 'flicker logo'></li>
-                <li class = 'nav-li-elements'><img src = 'assets/pint-icon.png' alt = 'pinterest logo'></li>
-                <li class = 'nav-li-elements'><img src = 'assets/rss-icon.png' alt = 'rss logo'></li>
-                <li class = 'nav-li-elements'><img src = 'assets/mail-icon.png' alt = 'mail logo'></li>
-            </ul>
         </nav>
-        <img src='assets/slash-border.png' alt='divider image'>
-        <section>
+        <img class= 'slash-divider' src='assets/slash-border.png' alt='divider image'>
+        <section class = 'row'>
             <article>
                 <div class='article-header'>
                     <h2>Chocolate Pizza</h2>
                     <p>Posted on 15 Dec 2013 / Desserts</p>
-                    <div>
+                    <div class='print'>
                         <img src='assets/print-icon.png' alt='print icon'>
                         <p>Print</p>
                     </div>
@@ -44,8 +48,8 @@
                 <br>
                 <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue process for +/- 10 minutes. Pour semi-frozen mixture into pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
                 <br>
-                <div class='ingred-list'>
-                    <img src='assets/list-bg.png' alt='yellow paper'>
+                <div class='col-1'>
+                    <img class = 'yellow-paper' src='assets/list-bg.png' alt='yellow paper'>
                     <ul>
                         <li class='ingred-li-items'><p>1 1/2 cups milk</p></li>
                         <li class='ingred-li-items'><p>1 cups mascarpone</p></li>
@@ -63,8 +67,8 @@
                         <li class='ingred-li-items'><p>1 cup honey roasted pecans, roughly chopped</p></li>
                     </ul>
                 </div>
-                <img src='assets/slash-border.png' alt='divider image'>
-                <div class='author-footer'>
+                <img class= 'slash-divider' src='assets/slash-border.png' alt='divider image'>
+                <div class='col-1'>
                     <img src='assets/van-pic.png' alt='author profile picture'>
                     <h2>Vanessa Stevenson</h2>
                     <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am</p>
@@ -74,10 +78,12 @@
                 </div>
             </article>
         </section>
-        <footer>
-            <img src='assets/small-logo.png' alt='delicious logo. fork and knife'>
-            <p>Delicious C 2013 - All Rights Reserved.</p>
-            <p>Proudly published with Ghost.</p>
+        <footer class='row'>
+            <div class='col-1'>
+                <img src='assets/small-logo.png' alt='delicious logo. fork and knife'>
+                <p>Delicious C 2013 - All Rights Reserved.</p>
+                <p>Proudly published with Ghost.</p>
+            </div>
         </footer>
     </div>
 </body>

@@ -8,3 +8,35 @@
     margin: 0 auto;
     background-color: green;
 }
+.row::before,.row::after {
+    content:'';
+    display:table;
+    clear:both;
+}
+.col-1 {
+    float:left;
+    min-height:1px;
+    width:100%;
+    padding:12px;
+    background-color: red;
+}
+.slash-divider, .feature-img, .yellow-paper {
+    width:100%;
+}
+.nav-list, .nav-left-container {
+    display: inline-block;
+}
+.nav-left-container {
+    float: left;
+}
+.logo-text, .print p {
+    display: inline-block;
+}
+.nav-list, .print{
+    list-style: none;
+    float:right;
+}
+.nav-list > li {
+    display: inline-block;
+    padding-top: 12px;
+}
